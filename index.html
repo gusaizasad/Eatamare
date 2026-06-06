@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>เย็นนี้กินอะไรดี — Team Lunch Decision Report</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+
+  <!-- ข้อมูลร้าน — ไฟล์ที่ n8n เขียนทับทุกวัน -->
+  <script src="data.js"></script>
+  <script src="sheet-loader.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- pre-compiled JS (ไม่ใช้ Babel ตอนรัน — แปลงจาก .jsx ไว้แล้ว) -->
+  <script src="build/tweaks-panel.js"></script>
+  <script src="build/components-1.js"></script>
+  <script src="build/components-2.js"></script>
+  <script src="build/components-3.js"></script>
+  <script src="build/app.js"></script>
+</body>
+</html>
